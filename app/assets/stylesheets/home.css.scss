@@ -275,15 +275,50 @@ footer {
 	margin-left: 5%;
 	padding-bottom: 10px;
 	text-decoration: underline;
-	float: left;
+	width: 40%;
+	display: inline-block;
 }
 
 #sites {
-
-	
+	width: 95%;
+	margin: 0 auto;
 }
 
 .grabs img {
-	width: 35%;
-	height: 35%;
+	width: 100%;
+	height: 100%;
 }
+
+.grabs img:hover {
+	opacity: .5;
+}
+
+#image {
+  position: relative;
+
+}
+
+.text {
+  position: absolute;
+  padding-top:25px;
+  padding-left: 15px;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  font-size: 19px;
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+#image:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+
