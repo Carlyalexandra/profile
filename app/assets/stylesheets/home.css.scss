@@ -40,6 +40,7 @@ body {
 	font: 36px 'Philosopher', san-serif;
 	margin-top:40px;
 	margin-left: 40px;
+	margin-bottom: -12px;
 	padding-bottom: none;
 	position: relative;
 	color: rgb(85,85,85);
@@ -49,7 +50,7 @@ body {
 #head h3 {
 	margin-top: none;
 	padding-top: none;
-	margin-left: 40px;
+	margin-left: 42px;
 	font: 15px 'Philosopher', sans-serif;
 	color: rgb(119,119,127);
 
@@ -143,7 +144,7 @@ nav {
 
 nav li{
 	display: inline;
-	margin-right: 20px;
+	margin-right: 30px;
 }
 
 nav a {
@@ -232,6 +233,21 @@ footer {
 	
 }
 
+#col1, #col2 {
+	width: 48%;
+	float: left;
+}
+
+#col1 p {
+	color: rgb(119,119,127);
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+#col2 {
+	color: rgb(85,85,85);
+	margin-left: 30px;
+}
 
 #sidebar {
 	position: fixed;
