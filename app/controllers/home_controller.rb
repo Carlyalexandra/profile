@@ -10,4 +10,8 @@ class HomeController < ApplicationController
 
   def index
   end
+
+  def resume
+  	redirect_to "/Carly_Rosenberg.PDF"
+  end
 end
