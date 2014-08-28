@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="wrap">
+	<div id="head">
+		<h1><%= link_to "Carly Rosenberg", root_path %></h1>
+		<h3>Director/Writer/Producer</h3>
+	</div>
+	<div id="social">
+		<ul>
+			<li><a id="twit" href="https://twitter.com/carlyally" target="_blank"></a></li>
+
+			<li><a id="google" href="https://github.com/Carlyalexandra" target="_blank"></a></li>
+
+			<li><a id="vimeo" href="http://vimeo.com/carlyrosenberg" target="_blank"></a></li>
+
+			<li><a id="linked" href="https://www.linkedin.com/pub/carly-rosenberg/5/200/5b5" target="_blank"></a></li>
+
+		</ul>
+	</div>	
+<br>
+<br>
+<br>
+<hr>
+	<nav>
+		<ul>
+			<li><a href="webdev">Web Development</a></li>
+			<li><a href="digital">Digital Content</a></li>
+			<li><a href="television">Television</a></li>
+			<li><a href="about">About Me</a></li>
+			<li><a href="mailto:carlyr@gmail.com" target="_parent">Contact Me<a></li>
+		</ul>
+	</nav>
+	<hr>
+	<br>
+
+<%= yield %>
+<footer>
+		<p>Copyright &copy 2014 Carly Rosenberg</p>
+	</footer>
+</body>
+</html>
