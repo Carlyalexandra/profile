@@ -177,15 +177,31 @@ footer {
 #photome {
 	margin-top: 0px;
 	height: auto;
-	width: auto;
-	max-width: 510px;
 	float: left;
-	border-radius: 5px;
-	border: 1px solid;
+	max-width: 400px;
+	
+	margin: 15px;
+	padding-right: 10px;
 
+}
+
+
+
+#me {
+	margin: 10px;
+	border-radius: 5px;
+	padding: 8px;
+	border: 1px solid;
+	font-size: 15px;
+	background-color: #FEFEFA;
 	
 }
 
+#me p {
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 16px;
+}
 .content {
 	width: 95%;
 	margin-left: 30px;
@@ -195,30 +211,14 @@ footer {
 	font-size: 16px;
 }
 
-#col1, #col2 {
-	width: 48%;
+#bio {
 	float: left;
-}
 
-#col1 p {
-	color: rgb(119,119,127);
-	font-size: 15px;
-	margin-bottom: 10px;
-}
-
-#col2 {
-	color: rgb(85,85,85);
-	margin-left: 30px;
 }
 
 
-#me {
-	border-radius: 5px;
-	padding: 8px;
-	border: 1px solid;
-	font-size: 15px;
-	background-color: #FEFEFA;
-}
+
+
 
 #id {
 	color: rgb(119,119,127);
