@@ -1,3 +1,273 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+	background-color: rgb(237,237,237);
+
+}
+
+body {
+	font-family: "Philosopher", sans-serif;
+}
+
+#wrap {
+	margin-left: 20px;
+	background-color: rgb(255,255,255);
+	width: 96%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 6px;
+}
+
+
+
+#head {
+	float: left;
+}
+
+#head a {
+	text-decoration: none;
+	color: rgb(85,85,85);
+
+}
+
+#head h1 a:hover {
+	color: rgb(5,169,197);
+}
+
+
+#head h1 {
+	font: 36px 'Philosopher', san-serif;
+	margin-top:40px;
+	margin-left: 40px;
+	padding-bottom: none;
+	position: relative;
+	color: rgb(85,85,85);
+	
+}
+
+#head h3 {
+	margin-top: none;
+	padding-top: none;
+	margin-left: 40px;
+	font: 15px 'Philosopher', sans-serif;
+	color: rgb(119,119,127);
+
+
+}
+
+#social {
+	float: right;
+	position: relative;
+	top: 40px;
+	margin-right: 25px;
+}
+
+#social li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#twit {
+	display:block;
+	width: 32px;
+	height: 32px;
+	background-image: url(../images/twitg.png);
+	background-size: 32px 32px;
+}
+
+#twit:hover {
+	background-image: url(../images/twitterc.png);
+	background-size: 32px 32px;
+}
+
+#google {
+	display:block;
+	width:32px;
+	height:32px;
+	background-image: url(../images/gitg.png);
+	background-size: 32px 32px;
+}
+
+#google:hover {
+	background-image: url(../images/gitc.png);
+	background-size: 32px 32px;
+}
+
+#vimeo {
+	display:block;
+	width:32px;
+	height:32px;
+	background-image: url(../images/vimeog.png);
+	background-size: 32px 32px;
+}
+
+#vimeo:hover {
+background-image: url(../images/vimeoc.png);
+background-size: 32px 32px;
+}
+
+#linked {
+	display:block;
+	width:32px;
+	height:32px;
+	background-image: url(../images/linkedg.png);
+	background-size: 32px 32px;
+}
+
+#linked:hover {
+background-image: url(../images/linkedc.png);
+background-size: 32px 32px;
+}
+
+
+br {
+	clear: both;
+}
+
+nav {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	clear: both;
+	text-transform: uppercase; 
+	font: 15px 'Philospher', sans-serif;
+
+}
+
+.currentLink{
+
+	color: rgb(5,169,197);
+}
+
+nav li{
+	display: inline;
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: rgb(119,119,127);
+}
+
+nav a:hover {
+	color: rgb(5,169,197);
+}
+
+#video {
+	margin-top: 60px;
+	margin-left: 40px;
+
+}
+
+#video h2 {
+	font-size: 22px;
+	color: rgb(85,85,85);
+}
+
+footer {
+	margin-left: 40px;
+	font-size: 12px;
+	color: rgb(153,153,153);
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#photome {
+	margin-top: 0px;
+	height: auto;
+	width: auto;
+	max-width: 510px;
+	float: left;
+	border-radius: 5px;
+	border: 1px solid;
+
+	
+}
+
+#content {
+	width: 95%;
+	margin-left: 30px;
+	height: auto;
+	float: left;
+	color: rgb(119,119,127);
+	font-size: 16px;
+}
+
+#col1, #col2 {
+	width: 48%;
+	float: left;
+}
+
+#col1 p {
+	color: rgb(119,119,127);
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+#col2 {
+	color: rgb(85,85,85);
+	margin-left: 30px;
+}
+
+
+#me {
+	border-radius: 5px;
+	padding: 8px;
+	border: 1px solid;
+	font-size: 15px;
+	background-color: #FEFEFA;
+}
+
+#id {
+	color: rgb(119,119,127);
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+#tv {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	
+}
+
+
+#sidebar {
+	position: fixed;
+	right: 120px;
+	background-color: #FEFEFA;
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 30px;
+	color: rgb(85,85,85);
+	font: 15px 'Philosopher', sans-serif;
+	height: 80px;
+	font-style: italic;
+	border: solid 1px;
+}
+
+
+#sidebar a {
+	text-decoration: none;
+	color: rgb(85,85,85);
+}
+
+#sidebar a:active {
+	color: white;
+}
+
+#sidebar a:visited {
+	color: rgb(8,69,143);
+}
+
+#sidebar img {
+	margin-left: 40%;
+	margin-top: -10px;
+}
+
+#sidebar ul {
+	list-style-type: disc;
+	padding-left: 10px;
+	
+}
