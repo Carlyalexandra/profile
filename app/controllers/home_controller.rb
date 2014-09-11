@@ -12,6 +12,6 @@ class HomeController < ApplicationController
   end
 
   def resume
-  	redirect_to "/crosenberg.pdf"
+  	redirect_to "/carosenberg.pdf"
   end
 end
