@@ -218,9 +218,6 @@ footer {
 }
 
 
-
-
-
 #id {
 	color: rgb(119,119,127);
 	font-size: 15px;
@@ -291,9 +288,12 @@ footer {
 .grabs {
 	margin-left: 5%;
 	padding-bottom: 10px;
-	text-decoration: underline;
 	width: 40%;
 	display: inline-block;
+}
+
+.grabs h2 {
+	text-decoration: underline;
 }
 
 #sites {
@@ -332,6 +332,10 @@ footer {
   /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
   */
+}
+
+#creds {
+	font-style: italic;
 }
 
 #image:hover .text {
