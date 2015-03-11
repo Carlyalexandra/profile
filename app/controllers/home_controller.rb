@@ -11,7 +11,10 @@ class HomeController < ApplicationController
   def index
   end
 
+  def landing
+  end
+
   def resume
-  	redirect_to "/crosenberg2015.pdf"
+  	redirect_to "/CARosenberg_2015.pdf"
   end
 end
