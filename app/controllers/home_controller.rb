@@ -18,3 +18,5 @@ class HomeController < ApplicationController
   	redirect_to "/CarlyARosenberg2015.pdf"
   end
 end
+
+
