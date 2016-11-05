@@ -1,0 +1,400 @@
+/* line 4, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+html {
+  background-color: #ededed;
+}
+
+/* line 9, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+body {
+  font-family: "Philosopher", sans-serif;
+}
+
+/* line 13, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#wrap {
+  margin-left: 20px;
+  background-color: white;
+  width: 96%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+}
+
+/* line 24, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#head {
+  float: left;
+}
+
+/* line 28, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#head a {
+  text-decoration: none;
+  color: #555555;
+}
+
+/* line 34, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#head h1 a:hover {
+  color: #05a9c5;
+}
+
+/* line 39, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#head h1 {
+  font: 36px 'Philosopher', sans-serif;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: -12px;
+  padding-bottom: none;
+  position: relative;
+  color: #555555;
+}
+
+/* line 50, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#head h3 {
+  margin-top: none;
+  padding-top: none;
+  margin-left: 42px;
+  font: 15px 'Philosopher', sans-serif;
+  color: #77777f;
+}
+
+/* line 60, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#social {
+  float: right;
+  position: relative;
+  top: 40px;
+  margin-right: 25px;
+}
+
+/* line 67, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#social li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* line 72, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#twit {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/twitg.png);
+  background-size: 32px 32px;
+}
+
+/* line 80, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#twit:hover {
+  background-image: url(../images/twitterc.png);
+  background-size: 32px 32px;
+}
+
+/* line 85, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#google {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/gitg.png);
+  background-size: 32px 32px;
+}
+
+/* line 93, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#google:hover {
+  background-image: url(../images/gitc.png);
+  background-size: 32px 32px;
+}
+
+/* line 98, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#vimeo {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/vimeog.png);
+  background-size: 32px 32px;
+}
+
+/* line 106, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#vimeo:hover {
+  background-image: url(../images/vimeoc.png);
+  background-size: 32px 32px;
+}
+
+/* line 111, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#linked {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/linkedg.png);
+  background-size: 32px 32px;
+}
+
+/* line 119, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#linked:hover {
+  background-image: url(../images/linkedc.png);
+  background-size: 32px 32px;
+}
+
+/* line 125, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+br {
+  clear: both;
+}
+
+/* line 129, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+nav {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  clear: both;
+  text-transform: uppercase;
+  font: 15px 'Philospher', sans-serif;
+}
+
+/* line 140, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+.currentLink {
+  color: #05a9c5;
+}
+
+/* line 145, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+/* line 150, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+nav a {
+  text-decoration: none;
+  color: #77777f;
+}
+
+/* line 155, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+nav a:hover {
+  color: #05a9c5;
+}
+
+/* line 159, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#video {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+/* line 165, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#video h2 {
+  font-size: 22px;
+  color: #555555;
+}
+
+/* line 170, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+footer {
+  margin-left: 40px;
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* line 178, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#photome {
+  margin-top: 0px;
+  height: auto;
+  float: left;
+  max-width: 450px;
+  margin: 15px;
+  padding-right: 5px;
+}
+
+/* line 192, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#me {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid;
+  font-size: 15px;
+  background-color: #FEFEFA;
+}
+
+/* line 202, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#me p {
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+/* line 207, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+.content {
+  width: 95%;
+  margin-left: 30px;
+  height: auto;
+  float: left;
+  color: #77777f;
+  font-size: 16px;
+}
+
+/* line 216, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#bio {
+  float: left;
+}
+
+/* line 222, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#id {
+  color: #77777f;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* line 228, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#tv {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 235, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#col1, #col2 {
+  width: 48%;
+  margin-left: 200px;
+}
+
+/* line 240, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#col1 p {
+  color: #77777f;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* line 246, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#col2 {
+  color: #555555;
+  margin-left: 30px;
+}
+
+/* line 251, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#sidebar {
+  position: fixed;
+  right: 120px;
+  background-color: #FEFEFA;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  color: #555555;
+  font: 15px 'Philosopher', sans-serif;
+  height: 80px;
+  font-style: italic;
+  border: solid 1px;
+}
+
+/* line 266, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#sidebar a {
+  text-decoration: none;
+  color: #555555;
+}
+
+/* line 271, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#sidebar a:active {
+  color: white;
+}
+
+/* line 275, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#sidebar a:visited {
+  color: #08458f;
+}
+
+/* line 279, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#sidebar img {
+  margin-left: 40%;
+  margin-top: -10px;
+}
+
+/* line 284, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#sidebar ul {
+  list-style-type: disc;
+  padding-left: 10px;
+}
+
+/* line 289, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+.grabs {
+  margin-left: 5%;
+  padding-bottom: 10px;
+  width: 40%;
+  display: inline-block;
+}
+
+/* line 296, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+.grabs h2 {
+  text-decoration: underline;
+}
+
+/* line 300, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#sites {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* line 305, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+.grabs img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 310, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+.grabs img:hover {
+  opacity: .5;
+}
+
+/* line 314, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#image {
+  position: relative;
+}
+
+/* line 320, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+.text {
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 15px;
+  top: 48px;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  font-size: 19px;
+  visibility: hidden;
+  opacity: 0;
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+/* line 339, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#creds {
+  font-style: italic;
+}
+
+/* line 343, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#image:hover .text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 348, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#here {
+  text-decoration: none;
+  color: #545454;
+  font-weight: bold;
+}
+
+/* line 354, /Users/carlyrosenberg/Desktop/WWW/week12/profile/app/assets/stylesheets/home.css.scss */
+#here:hover {
+  color: #4A766E;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
