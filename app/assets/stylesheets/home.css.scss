@@ -193,14 +193,7 @@ footer {
 	margin: 10px;
 	border-radius: 5px;
 	padding: 8px;
-	border: 1px solid;
-	font-size: 15px;
-	background-color: #FEFEFA;
-	
-}
-
-#video p {
-	margin-top:0px;
+	font-size: 15px;	
 }
 
 #me p {
@@ -208,6 +201,12 @@ footer {
 	margin-left: 30px;
 	font-size: 16px;
 }
+
+#video p {
+	margin-top:0px;
+}
+
+
 .content {
 	width: 95%;
 	margin-left: 30px;
@@ -232,8 +231,7 @@ footer {
 .tv {
 	margin-top: 15px;
 	margin-bottom: 30px;
-	padding-bottom:30px;
-	
+	padding-bottom: 30px;
 }
 
 #col1, #col2 {

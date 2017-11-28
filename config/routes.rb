@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'about' => 'home#about'
 
-  get 'television' => 'home#index'
+  get 'television' => 'home#television'
 
   get 'digital' => 'home#digital'
 
@@ -14,7 +14,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   #root 'home#webdev'
-  root 'home#about'
+  root 'home#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
